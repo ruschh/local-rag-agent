@@ -1,0 +1,28 @@
+# Core do RAG
+langchain
+langchain-classic
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+
+# Banco vetorial e embeddings
+chromadb
+sentence-transformers
+torch
+
+# Leitura de PDFs
+pypdf
+
+# Interface
+streamlit
+
+# Observabilidade e rastreamento
+mlflow
+
+# Observação:
+# O Ollama é uma dependência externa ao Python.
+# Instale-o separadamente e baixe o modelo usado pelo projeto:
+#   ollama pull qwen2.5:3b
